@@ -1,0 +1,6 @@
+*
+!.gitignore
+!nginx.conf
+!php.ini
+!zzz-www.conf
+!my.cnf
