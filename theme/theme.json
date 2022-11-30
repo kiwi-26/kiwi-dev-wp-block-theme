@@ -40,6 +40,15 @@
             "fontFamily": "var(--wp--preset--font-family--system-font)",
             "fontSize": "var(--wp--preset--font-size--medium)",
             "lineHeight": "1.5"
+        },
+        "spacing": {
+            "blockGap": "1.5rem",
+            "padding": {
+                "top": "1rem",
+                "right": "1rem",
+                "bottom": "1rem",
+                "left": "1rem"
+            }
         }
     }
 }
