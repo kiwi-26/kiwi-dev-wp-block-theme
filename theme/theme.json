@@ -33,7 +33,21 @@
                     "size": "1.3125rem"
                 }
             ]
-        }
+        },
+        "color": {
+			"palette": [
+				{
+					"color": "#279ac4",
+					"slug": "primary",
+                    "name": "Primary"
+				},
+				{
+					"color": "#1d7291",
+					"slug": "primary-dark",
+                    "name": "PrimaryDark"
+				}
+			]
+		}
     },
     "styles": {
         "typography": {
@@ -48,6 +62,24 @@
                 "right": "1rem",
                 "bottom": "1rem",
                 "left": "1rem"
+            }
+        },
+        "elements": {
+            "link": {
+                "color": {
+                    "text": "var(--wp--preset--color--primary)"
+                },
+                ":hover": {
+                    "color": {
+                        "text": "var(--wp--preset--color--primary-dark)"
+                    },
+                    "typography": {
+						"textDecoration": "underline"
+					}
+                },
+                "typography": {
+                    "textDecoration": "none"
+                }
             }
         }
     }
