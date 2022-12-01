@@ -39,6 +39,19 @@ if ( ! function_exists( 'kiwidev_theme_setup' ) ) {
 				'navigation-widgets',
 			)
 		);
+
+		/*
+		* Load additional block styles.
+		*/
+		$styled_blocks = ['query-pagination-numbers'];
+		foreach ( $styled_blocks as $block_name ) {
+			$args = array(
+				'handle' => "kiwidev_theme-$block_name",
+				'src'    => get_theme_file_uri( "assets/css/blocks/$block_name.css" ),
+				$args['path'] = get_theme_file_path( "assets/css/blocks/$block_name.css" ),
+			);
+			wp_enqueue_block_style( "core/$block_name", $args );
+		}
     }
 }
 add_action( 'after_setup_theme', 'kiwidev_theme_setup' );
