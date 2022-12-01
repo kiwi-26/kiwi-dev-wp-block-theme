@@ -7,6 +7,7 @@
 			"contentSize": "960px",
 			"wideSize": "1200px"
 		},
+        "useRootPaddingAwareAlignments": true,
         "typography": {
             "fontFamilies": [
                 {
