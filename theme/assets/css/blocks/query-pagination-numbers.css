@@ -14,5 +14,4 @@
 .wp-block-query-pagination-numbers a.page-numbers {
     border: solid 1px;
     border-radius: 4px;
-    background-color: var(--wp--preset--color--white);
 }
