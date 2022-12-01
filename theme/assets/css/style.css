@@ -1,3 +1,6 @@
 a[target=_blank]::after {
     content: "↗️";
+    display: inline-block;
+    margin-left: 0.15em;
+    margin-right: 0.15em;
 }
