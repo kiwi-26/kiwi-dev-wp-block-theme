@@ -1,4 +1,4 @@
-name: release
+name: Release
 
 on:
   push:
@@ -6,18 +6,19 @@ on:
       - 'v*'
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
-    - uses: actions/checkout@v3
-    
-    - name: Zip theme
-      run: |
-        cd theme
-        zip release *.*
-    
-    - name: Create release
-      uses: softprops/action-gh-release@v1
-      with:
-        files: theme/release.zip
-        draft: false
-        prerelease: false
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Zip theme
+        run: |
+          cd theme
+          zip release *.*
+      
+      - name: Create release
+        uses: softprops/action-gh-release@v1
+        with:
+          files: theme/release.zip
+          draft: false
+          prerelease: false
