@@ -55,3 +55,11 @@ if ( ! function_exists( 'kiwidev_theme_setup' ) ) {
     }
 }
 add_action( 'after_setup_theme', 'kiwidev_theme_setup' );
+
+if ( ! function_exists( 'kiwidev_theme_scripts' ) ) {
+    function kiwidev_theme_scripts() {
+        // Enqueue styles.
+        wp_enqueue_style( 'style', get_theme_file_uri( "assets/css/style.css" ) );
+    }
+}
+add_action( 'wp_enqueue_scripts', 'kiwidev_theme_scripts' );
