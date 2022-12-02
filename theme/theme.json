@@ -101,12 +101,12 @@
     "templateParts": [
         {
             "name": "header",
-            "title": "Header",
+            "title": "サイトヘッダー",
             "area": "header"
         },
         {
             "name": "footer",
-            "title": "Footer",
+            "title": "サイトフッター",
             "area": "footer"
         }
     ]
