@@ -4,9 +4,9 @@
     "settings": {
         "appearanceTools": true,
         "layout": {
-			"contentSize": "960px",
-			"wideSize": "1200px"
-		},
+            "contentSize": "960px",
+            "wideSize": "1200px"
+        },
         "useRootPaddingAwareAlignments": true,
         "typography": {
             "fontSizes": [
@@ -29,29 +29,29 @@
             ]
         },
         "color": {
-			"palette": [
-				{
-					"color": "#279ac4",
-					"slug": "primary",
+            "palette": [
+                {
+                    "color": "#279ac4",
+                    "slug": "primary",
                     "name": "Primary"
-				},
-				{
-					"color": "#1d7291",
-					"slug": "primary-dark",
+                },
+                {
+                    "color": "#1d7291",
+                    "slug": "primary-dark",
                     "name": "PrimaryDark"
-				},
-				{
-					"color": "#2e353f",
-					"slug": "body",
+                },
+                {
+                    "color": "#2e353f",
+                    "slug": "body",
                     "name": "Body"
-				},
-				{
-					"color": "#fafaf9",
-					"slug": "background",
+                },
+                {
+                    "color": "#fafaf9",
+                    "slug": "background",
                     "name": "Background"
-				}
-			]
-		}
+                }
+            ]
+        }
     },
     "styles": {
         "typography": {
@@ -82,8 +82,8 @@
                         "text": "var(--wp--preset--color--primary-dark)"
                     },
                     "typography": {
-						"textDecoration": "underline"
-					}
+                        "textDecoration": "underline"
+                    }
                 },
                 "typography": {
                     "textDecoration": "none"
