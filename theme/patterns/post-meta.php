@@ -13,7 +13,7 @@
     <!-- wp:column -->
     <div class="wp-block-column">
         <!-- wp:post-date /-->
-        <!-- wp:post-author /-->
+        <!-- wp:post-author {"avatarSize":32,"isLink":true} /-->
     </div>
     <!-- /wp:column -->
 
